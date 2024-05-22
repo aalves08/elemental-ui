@@ -22,12 +22,12 @@
         "./*"
       ],
       "@shell/*": [
-        "./node_modules/@rancher/shell/*"
+        "./node_modules/@aalves-test/shell/*"
       ]
     },
     "typeRoots": [
       "./node_modules",
-      "./node_modules/@rancher/shell/types"
+      "./node_modules/@aalves-test/shell/types"
     ],
     "types": [
       "@types/node",

@@ -15,7 +15,7 @@
     "preserveSymlinks": true,
     "typeRoots": [
       "../../node_modules",
-      "../../node_modules/@rancher/shell/types",
+      "../../node_modules/@aalves-test/shell/types",
     ],
     "types": [
       "@types/node",
@@ -32,7 +32,7 @@
     ],
     "paths": {
       "@shell/*": [
-        "../../node_modules/@rancher/shell/*"
+        "../../node_modules/@aalves-test/shell/*"
       ],
       "@components/*": [
         "@rancher/components/*"
@@ -43,7 +43,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.vue",
-    "../../node_modules/@rancher/shell/core/types.ts"
+    "../../node_modules/@aalves-test/shell/core/types.ts"
   ],
   "exclude": [
     "../../node_modules"
