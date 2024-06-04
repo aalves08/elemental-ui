@@ -61,7 +61,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          chmod +x ./node_modules/@rancher/shell/scripts/extension/parse-tag-name
+          chmod +x ./node_modules/@aalves-test/shell/scripts/extension/parse-tag-name
           yarn parse-tag-name ${{ github.ref_name }} ${{ github.run_id }} "charts"
 
       - name: Run build script
